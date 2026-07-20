@@ -45,7 +45,7 @@ app:
     refresh-token-expiry-ms: ${JWT_REFRESH_EXPIRY:604800000}
 
   cors:
-    allowed-origins: ${CORS_ORIGINS:http://localhost:5173}
+    allowed-origins: ${CORS_ORIGINS:https://infrapulse-drab.vercel.app}
 
   mail:
     from: ${MAIL_FROM:no-reply@infrapulse.app}
@@ -56,11 +56,11 @@ app:
     enabled: ${HF_ENABLED:false}
 
   frontend:
-    base-url: ${FRONTEND_URL:http://localhost:5173}
+    base-url: ${FRONTEND_URL:https://infrapulse-drab.vercel.app}
 
   seed:
     admin-email: ${SEED_ADMIN_EMAIL:admin@infrapulse.app}
-    admin-password: ${SEED_ADMIN_PASSWORD:Admin@123}
+    admin-password: ${SEED_ADMIN_PASSWORD:Aksvirana@123}
 
 springdoc:
   swagger-ui:
